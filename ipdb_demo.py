@@ -1,11 +1,11 @@
-# import ipdb
+import ipdb
 
 def divide(a, b):
     result = a / b
     return result
 
 def multiply(a, b):
-    result = a + b
+    result = a * b
     return result
 
 def complex_calculation(a, b):
@@ -14,7 +14,7 @@ def complex_calculation(a, b):
     return result2
 
 def main():
-    # ipdb.set_trace() # Set a breakpoint
+    ipdb.set_trace() # Set a breakpoint
     print("In main")
     a = 10
     b = 2

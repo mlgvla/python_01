@@ -55,7 +55,7 @@ w = [1, 2, 3]
 
 """
 '==' compares by value
-'is' compares by reference
+'is' compares lists by reference, like JavaScript
 """
 
 is_operator = m is n 
